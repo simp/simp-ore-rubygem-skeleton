@@ -1,0 +1,30 @@
+enable:
+  - apache
+  - bundler
+  - gem_package_task
+  - git
+  - rspec
+  - travis
+  - yard
+
+disable:
+  - gem
+ignore:
+  - '.bundle/'
+  - '/dist/'
+  - '*.gem'
+  - 'Gemfile.lock'
+  - '/junit'
+  - '/log'
+  - '/pkg'
+  - '/.rspec_system'
+  - '.*.sw?'
+  - '/.vagrant'
+  - '/vendor'
+  - '/.yardoc'
+
+variables:
+  github_user:  'simp'
+  licence:      'Apache'
+  license_file: 'LICENSE'
+  markup:       :markdown
