@@ -7,8 +7,6 @@ enable:
   - travis
   - yard
 
-disable:
-  - gem
 ignore:
   - '.bundle/'
   - '/dist/'

@@ -1,0 +1,43 @@
+<%- includes(:badges,'') do |badges| -%>
+<%= badges -%>
+<%- end -%>
+
+# <%= @name %>
+
+<%= @summary %>
+
+#### Table of Contents
+1. [Overview](#overview)
+2. [Setup](#setup)
+* [Beginning with <%= @name %>](#beginning-with-<%= @name.gsub(/[_]/,'-')%>)
+3. [Methods](#methods)
+4. [Environment variables](#environment-variables)
+5. [Examples](#examples)
+6. [License](#license)
+
+## Overview
+
+<%= @description %>
+
+## Setup
+
+### Beginning with <%= @name %>
+
+Add this to your project's `Gemfile`:
+
+```ruby
+gem '<%= @name %>'
+```
+
+## Methods
+
+
+
+## Environment variables
+
+
+## Examples
+
+
+## License
+See [LICENSE](LICENSE)
